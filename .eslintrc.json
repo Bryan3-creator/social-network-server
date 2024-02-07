@@ -11,6 +11,8 @@
   "rules": {
     "space-before-function-paren": "off",
     "@typescript-eslint/space-before-function-paren": "off",
-    "valid-typeof": ["error", { "requireStringLiterals": false }]
+    "valid-typeof": ["error", { "requireStringLiterals": false }],
+    "indent": "off",
+    "@typescript-eslint/indent": "off"
   }
 }
