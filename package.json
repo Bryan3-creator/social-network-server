@@ -15,6 +15,16 @@
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.0.0",
+    "module-alias": "2.2.3",
+    "tsconfig-paths": "4.2.0",
     "typescript": "5.3.3"
+  },
+  "_moduleAliases": {
+    "@root/*": "./*",
+    "@src/*": "./dist/*",
+    "@apps/*": "./dist/apps/*",
+    "@contexts/*": "./dist/contexts/*",
+    "@shared/*": "./dist/contexts/shared/*",
+    "@network/*": "./dist/contexts/network/*"
   }
 }
