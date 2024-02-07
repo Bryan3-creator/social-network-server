@@ -1,0 +1,13 @@
+{
+  "name": "social-network-server",
+  "version": "1.0.0",
+  "description": "Social network server",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "@Bryan.dev",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
+}
