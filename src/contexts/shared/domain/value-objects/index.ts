@@ -1,5 +1,6 @@
 export * from './bool-value-object'
 export * from './date-value-object'
+export * from './email-value-object'
 export * from './int-value-object'
 export * from './optional-value-object'
 export * from './root-value-object'
