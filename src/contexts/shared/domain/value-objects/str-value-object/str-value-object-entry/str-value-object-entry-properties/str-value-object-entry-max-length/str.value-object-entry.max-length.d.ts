@@ -1,0 +1,1 @@
+export type StrMaxLength = number
