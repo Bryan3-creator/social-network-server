@@ -21,7 +21,6 @@
     "typescript": "5.3.3"
   },
   "_moduleAliases": {
-    "@root/*": "./*",
     "@src/*": "./dist/*",
     "@apps/*": "./dist/apps/*",
     "@contexts/*": "./dist/contexts/*",
