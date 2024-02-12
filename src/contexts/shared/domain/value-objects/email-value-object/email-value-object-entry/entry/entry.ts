@@ -1,8 +1,11 @@
+import { type RootKey } from '../../../root-value-object'
 import { type IStrValueObjectEntry } from '../../../str-value-object'
 
 export interface IEmailValueObject
-  extends Partial<Pick<IStrValueObjectEntry, 'key'>> {}
+  extends Pick<IStrValueObjectEntry, 'value'> {}
 
 export interface IEmailValueObjectEntry
   extends Omit<IStrValueObjectEntry, 'key'>,
-    IEmailValueObject {}
+    IEmailValueObject {
+  key?: RootKey
+}
