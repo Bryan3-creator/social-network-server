@@ -1,3 +1,4 @@
+export * from './user-avatar'
 export * from './user-email'
 export * from './user-id'
 export * from './user-name'
