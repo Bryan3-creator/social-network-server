@@ -1,6 +1,7 @@
 export * from './user-avatar'
 export * from './user-description'
 export * from './user-email'
+export * from './user-following-count'
 export * from './user-id'
 export * from './user-name'
 export * from './user-password'
