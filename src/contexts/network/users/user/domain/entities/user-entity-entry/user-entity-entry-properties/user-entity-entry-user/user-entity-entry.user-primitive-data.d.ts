@@ -11,6 +11,7 @@ export interface UserPrimitiveData {
   username: StrValue
   email: StrValue
   password: StrValue
+  avatar: StrValue
   description: Optional<StrValue>
   location: StrValue
   followingCount: IntValue
