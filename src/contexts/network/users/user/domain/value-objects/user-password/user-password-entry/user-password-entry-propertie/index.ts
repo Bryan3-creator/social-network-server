@@ -1,1 +1,1 @@
-export * from './user-password-entry-key'
+export * from './user-password-entry-value'
