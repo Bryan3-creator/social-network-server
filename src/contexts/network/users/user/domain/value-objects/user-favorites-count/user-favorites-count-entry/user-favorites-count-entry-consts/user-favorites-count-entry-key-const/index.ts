@@ -1,1 +1,1 @@
-export * from './user-favorites-count-entry.value.d'
+export * from './user-favorites-count-entry.key.const'
