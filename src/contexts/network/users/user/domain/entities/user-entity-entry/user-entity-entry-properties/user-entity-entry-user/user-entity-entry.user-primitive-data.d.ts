@@ -1,23 +1,17 @@
-import {
-  type BoolValue,
-  type IntValue,
-  type Optional,
-  type StrValue
-} from '@shared/domain/value-objects'
+import type * as Primitives from '../../../../value-objects'
 
 export interface UserPrimitiveData {
-  userId: StrValue
-  name: StrValue
-  username: StrValue
-  email: StrValue
-  password: StrValue
-  avatar: StrValue
-  description: Optional<StrValue>
-  location: StrValue
-  followingCount: IntValue
-  followersCount: IntValue
-  favoritesCount: BoolValue
-  private: BoolValue
-  verified: BoolValue
-  lang: StrValue
+  userId: Primitives.Id
+  name: Primitives.Name
+  username: Primitives.Username
+  email: Primitives.Email
+  password: Primitives.Password
+  avatar: Primitives.Avatar
+  description: Optional<Primitives.Description>
+  followingCount: Primitives.FollowingCount
+  followersCount: Primitives.FollowersCount
+  favoritesCount: Primitives.FavoritesCount
+  private: Primitives.Private
+  verified: Primitives.Verified
+  lang: Primitives.Language
 }
